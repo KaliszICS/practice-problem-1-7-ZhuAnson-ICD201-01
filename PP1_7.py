@@ -1,25 +1,37 @@
 
 
-q1():
-  #Write code here
+def q1():
+  bool = True
+  print(bool)
 
-q2():
-  #Write code here
+def q2():
+  num = int(input("Input an integer: "))
+  bool = (num > 5)
+  print(bool)
 
-q3():
-  #Write code here
+def q3():
+  letter = input("Input the letter a: ")
+  bool = (letter == "a")
+  print(bool)
 
-q4():
-  #Write code here
+def q4():
+  word = input("Input a word earlier in the dictionary than google: ")
+  bool = (word < "google")
+  print(bool)
 
-q5():
-  #Write code here
+def q5():
+  num1 = int(input("Input an integer: "))
+  num2 = int(input("Input another integer: "))
+  num = num1 * num2
+  bool = (num > 40)
+  print("Your numbers multiplied together are greater than 40: ")
+  print(bool)
 
 #Do edit the code below
 #Comment the lines below when running your tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+# q1()
+# q2()
+# q3()
+# q4()
+# q5()
